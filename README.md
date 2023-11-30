@@ -1,1 +1,1 @@
-Miscellaneous small scripts and programs.
+misc tiny projects
