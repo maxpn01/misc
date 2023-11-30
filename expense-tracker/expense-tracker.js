@@ -54,6 +54,7 @@ addBtn.addEventListener("click", () => {
     addTransaction(newTransaction);
     addTransactionUI(newTransaction);
     updateTotals();
+    cleanInputs();
 });
 
 function updateTotals() {
@@ -97,4 +98,9 @@ function updateUI() {
     transactions?.forEach(transaction => {
         if (transaction) addTransactionUI(transaction);
     });
+}
+
+function cleanInputs() {
+    textInput.value = "";
+    amountInput.value = "";
 }
