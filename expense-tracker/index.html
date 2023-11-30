@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+
+    <style>
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            font-size: 1.1rem;
+            padding-bottom: .15rem;
+        }
+        li span {
+            font-size: 1.15rem;
+            font-weight: bold;
+        }
+        input {
+            margin-bottom: .5rem;
+        }
+        .history {
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Balance: <span class="balance">0</span></li>
+        <li>Income: <span class="income">0</span></li>
+        <li>Expense: <span class="expense">0</span></li>
+    </ul>
+    
+
+    <input type="text" placeholder="enter text" class="transaction-text"><br>
+    <input type="number" placeholder="enter amount" class="transaction-number"><br>
+    <button class="add">add</button>
+
+    <div class="history"></div>
+
+    <script src="expense-tracker.js"></script>
+</body>
+</html>   
