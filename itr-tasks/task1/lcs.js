@@ -1,0 +1,1 @@
+f=(a=process.argv.slice(2))=>{if(a.length==1)return a[0];if(a.length>1){let a1=a[0].split(""),r="",s=a1.flatMap((_,i)=>a1.slice(i).map((_,j)=>a1.slice(i,i+j+1).join("")));s.forEach((ss,i)=>{if(a.slice(1).every(str=>str.includes(ss))&&ss.length>r.length)r=ss});return r}else return""};console.log(f())
