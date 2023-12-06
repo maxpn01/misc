@@ -1,0 +1,10 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "main": "rps.js",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "prompt-sync": "^4.2.0"
+  }
+}
